@@ -1,4 +1,5 @@
-# generator-vue-ts-starter [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# generator-vue-ts-starter 
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > Starter for vue and typescript.
 
 ## Installation
@@ -14,6 +15,13 @@ Then generate your new project:
 
 ```bash
 yo vue-ts-starter
+```
+
+And, you can generate `compoennt` or `page` by:
+
+```bash
+yo vue-ts-starter:component
+yo vue-ts-starter:page
 ```
 
 ## Getting To Know Yeoman

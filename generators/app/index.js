@@ -4,11 +4,10 @@ const chalk = require('chalk');
 const yosay = require('yosay');
 
 module.exports = class extends Generator {
-
   prompting() {
     // Have Yeoman greet the user.
     this.log(yosay(
-      'Welcome to the wicked ' + chalk.red('generator-masonz-vue') + ' generator!'
+      'Welcome to the wicked ' + chalk.red('generator-vue-ts-starter') + ' generator!'
     ));
 
     const prompts = [
@@ -45,7 +44,6 @@ module.exports = class extends Generator {
   }
 
   writing() {
-
     this.fs.copyTpl(
       this.templatePath('files'),
       this.destinationPath('./'),
@@ -81,13 +79,13 @@ module.exports = class extends Generator {
         this.templatePath('special/src/store'),
         this.destinationPath('./src/store/'),
         this.props
-      )
+      );
     }
   }
 
   install() {
     if (this.props.install) {
-      this.installDependencies({ bower: false });
+      this.installDependencies({bower: false});
     } else {
       this.log('\n You can execute the following command line: \n' +
         '----------------------------------------- \n\n' +
@@ -98,5 +96,4 @@ module.exports = class extends Generator {
       );
     }
   }
-
 };

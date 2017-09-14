@@ -3,14 +3,13 @@ const Generator = require('yeoman-generator');
 const chalk = require('chalk');
 const yosay = require('yosay');
 const _ = require('lodash');
-const mkdirp = require('mkdirp');
 const rename = require('gulp-rename');
 
 module.exports = class extends Generator {
   prompting() {
     // Have Yeoman greet the user.
     this.log(yosay(
-      'Welcome to the premium ' + chalk.red('generator-masonz-vue-component') + ' generator!'
+      'Welcome to the premium ' + chalk.red('generator-vue-ts-starter') + ' generator!'
     ));
 
     const prompts = [{
@@ -31,6 +30,10 @@ module.exports = class extends Generator {
 
   writing() {
 
+    if (!this.props.page) {
+      return this.log('Page name is required !');
+    }
+
     this.registerTransformStream(rename(function (path) {
       var pageName = this.props.smallName;
       path.basename = path.basename.replace(/(_vpage_)/g, pageName);
@@ -42,10 +45,9 @@ module.exports = class extends Generator {
       this.destinationPath('./'),
       this.props
     );
-
   }
 
   install() {
-    // this.installDependencies();
+    // This.installDependencies();
   }
 };
