@@ -46,7 +46,7 @@
     "prepublish": "nsp check",
     "pretest": "eslint . --fix",
     "test": "jest",
-    "coveralls": "mocha tests/node-test.js -R mocha-lcov-reporter -r jscoverage | coveralls"
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "eslintConfig": {
     "extends": "xo-space",
