@@ -3,4 +3,9 @@ node_js:
   - 7
   - 6
   - 4
+before_install:
+  - npm install mocha -g
+  - npm install coveralls -g
+  - npm install mocha-lcov-reporter -g
+script: npm run coveralls
 after_script: 'cat ./coverage/lcov.info | coveralls'
