@@ -1,6 +1,6 @@
 # generator-vue-ts-starter [中文文档](./README.ZH_CH.md)
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> 😘Starter for vue and typescript.
+> 😘 Starter for vue and typescript.
 
 ## Installation
 
