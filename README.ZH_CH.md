@@ -1,35 +1,28 @@
-# generator-vue-ts-starter [中文文档](./README.ZH_CH.md)
+# generator-vue-ts-starter
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> 😘Starter for vue and typescript.
+> 😘结合 Vue 和 TypeScript 的项目脚手架
 
-## Installation
+## 安装
 
-First, install [Yeoman](http://yeoman.io) and generator-vue-ts-starter using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+使用 `npm` 安装 [Yeoman](http://yeoman.io) 和 `generator-vue-ts-starter` .
 
 ```bash
 npm install -g yo
 npm install -g generator-vue-ts-starter
 ```
 
-Then generate your new project:
+生成项目结构:
 
 ```bash
 yo vue-ts-starter
 ```
 
-And, you can generate `compoennt` or `page` by:
+生成`组件`或者`页面`目录：
 
 ```bash
 yo vue-ts-starter:component
 yo vue-ts-starter:page
 ```
-
-## Getting To Know Yeoman
-
- * Yeoman has a heart of gold.
- * Yeoman is a person with feelings and opinions, but is very easy to work with.
- * Yeoman can be too opinionated at times but is easily convinced not to be.
- * Feel free to [learn more about Yeoman](http://yeoman.io/).
 
 ## License
 
