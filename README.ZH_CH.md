@@ -1,6 +1,20 @@
 # generator-vue-ts-starter
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> 😘结合 Vue 和 TypeScript 的项目脚手架
+> 😘 Vue 和 TypeScript 的项目脚手架
+
+## 集成工具
+
+ * Vue2
+ * Vuex
+ * Vue-Router
+ * TypeScript
+ * Sass
+ * Webpack3
+ * Karma
+ * Mocha
+ * Tslint
+
+> ⚠ 关于语法请参考[vue-class-component](https://github.com/vuejs/vue-class-component)和[vue-property-decorator](https://github.com/kaorun343/vue-property-decorator)
 
 ## 安装
 

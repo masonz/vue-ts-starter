@@ -2,6 +2,20 @@
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > 😘 Starter for vue and typescript.
 
+## Integration tools
+
+ * Vue2
+ * Vuex
+ * Vue-Router
+ * TypeScript
+ * Sass
+ * Webpack3
+ * Karma
+ * Mocha
+ * Tslint
+
+> ⚠ For syntax, please refer to[vue-class-component](https://github.com/vuejs/vue-class-component)和[vue-property-decorator](https://github.com/kaorun343/vue-property-decorator)
+
 ## Installation
 
 First, install [Yeoman](http://yeoman.io) and generator-vue-ts-starter using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
