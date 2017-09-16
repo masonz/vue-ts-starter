@@ -4,5 +4,6 @@ node_js:
   - 6
 before_install:
   - npm i nyc -g
+  - npm i coveralls -g
 after_success: 
   - npm run coverage
