@@ -87,12 +87,12 @@ module.exports = class extends Generator {
     if (this.props.install) {
       this.installDependencies({bower: false});
     } else {
-      this.log('\n You can execute the following command line: \n' +
-        '----------------------------------------- \n\n' +
+      this.log('\n You can execute the following command line to install dependencies: \n' +
+        '-------------------------------------------------- \n\n' +
 
-        '          npm install or npm i            \n\n' +
+        '                npm install or npm i            \n\n' +
 
-        '----------------------------------------- \n'
+        '-------------------------------------------------- \n'
       );
     }
   }

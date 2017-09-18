@@ -1,4 +1,4 @@
-# generator-vue-ts-starter [中文文档](./README.ZH_CH.md)
+# generator-vue-ts-starter [中文](./README.ZH_CH.md)
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > 😘 Starter for vue and typescript.
 
@@ -14,7 +14,7 @@
  * Mocha
  * Tslint
 
-> ⚠ For syntax, please refer to[vue-class-component](https://github.com/vuejs/vue-class-component)和[vue-property-decorator](https://github.com/kaorun343/vue-property-decorator)
+> ⚠ For syntax, please refer to [vue-class-component](https://github.com/vuejs/vue-class-component)和 [vue-property-decorator](https://github.com/kaorun343/vue-property-decorator)
 
 ## Installation
 
