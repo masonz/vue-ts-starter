@@ -29,7 +29,6 @@ module.exports = class extends Generator {
   }
 
   writing() {
-
     if (!this.props.component) {
       return this.log('Component name is required !');
     }

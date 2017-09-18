@@ -6,10 +6,10 @@ var helpers = require('yeoman-test');
 describe('generator-vue-ts-starter', () => {
   beforeEach(() => {
     return helpers.run(path.join(__dirname, '../generators/app'))
-      .withPrompts({ vuex: true });
+      .withPrompts({vuex: false});
   });
 
-  it('creates some files', () => {
+  it('creates project', () => {
     const expected = [
       '.gitgnore',
       'README.md',

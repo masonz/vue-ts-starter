@@ -29,7 +29,6 @@ module.exports = class extends Generator {
   }
 
   writing() {
-
     if (!this.props.page) {
       return this.log('Page name is required !');
     }

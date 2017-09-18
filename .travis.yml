@@ -5,6 +5,5 @@ node_js:
 before_install:
   - npm i nyc -g
   - npm i coveralls -g
-after_success: 
+script:
   - npm run coverage
-  - cat ./coverage/lcov.info | ./node_modules/.bin/codecov
