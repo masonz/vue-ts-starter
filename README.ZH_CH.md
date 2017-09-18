@@ -40,7 +40,7 @@ yo vue-ts-starter:page
 
 ## License
 
-MIT © [masonz](home.masonz.pub)
+MIT © masonz
 
 [npm-image]: https://badge.fury.io/js/generator-vue-ts-starter.svg
 [npm-url]: https://npmjs.org/package/generator-vue-ts-starter
