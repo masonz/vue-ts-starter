@@ -14,11 +14,11 @@
  * Mocha
  * Tslint
 
-> ⚠ 关于语法请参考[vue-class-component](https://github.com/vuejs/vue-class-component)和[vue-property-decorator](https://github.com/kaorun343/vue-property-decorator)
+> ⚠ 关于语法请参考 [vue-class-component](https://github.com/vuejs/vue-class-component) 和 [vue-property-decorator](https://github.com/kaorun343/vue-property-decorator)
 
 ## 安装
 
-使用 `npm` 安装 [Yeoman](http://yeoman.io) 和 `generator-vue-ts-starter` .
+使用 `npm` 安装 [Yeoman](http://yeoman.io) 和 [generator-vue-ts-starter](https://www.npmjs.com/package/generator-vue-ts-starter) .
 
 ```bash
 npm install -g yo
