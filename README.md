@@ -14,7 +14,7 @@
  * Mocha
  * Tslint
 
-> ⚠ For syntax, please refer to [vue-class-component](https://github.com/vuejs/vue-class-component)和 [vue-property-decorator](https://github.com/kaorun343/vue-property-decorator)
+> ⚠ For syntax, please refer to [vue-class-component](https://github.com/vuejs/vue-class-component) and [vue-property-decorator](https://github.com/kaorun343/vue-property-decorator)
 
 ## Installation
 
