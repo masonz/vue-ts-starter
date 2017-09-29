@@ -27,11 +27,6 @@ module.exports = class extends Generator {
         type: 'confirm',
         name: 'vuex',
         message: 'You want use vuex?'
-      },
-      {
-        type: 'confirm',
-        name: 'install',
-        message: 'You want auto install dependencies?'
       }
     ];
 
@@ -84,16 +79,6 @@ module.exports = class extends Generator {
   }
 
   install() {
-    if (this.props.install) {
-      this.installDependencies({bower: false});
-    } else {
-      this.log('\n You can execute the following command line to install dependencies: \n' +
-        '-------------------------------------------------- \n\n' +
-
-        '                npm install or npm i            \n\n' +
-
-        '-------------------------------------------------- \n'
-      );
-    }
+    this.installDependencies({bower: false});
   }
 };

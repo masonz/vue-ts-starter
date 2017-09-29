@@ -4,18 +4,14 @@ const helpers = require('./helpers'),
   DefinePlugin = require('webpack/lib/DefinePlugin'),
   env = require('../environment/dev.env');
 
-webpackConfig.module.rules = [...webpackConfig.module.rules,
+webpackConfig.module.rules = [
+  ...webpackConfig.module.rules,
   {
     test: /\.scss$/,
-    use: [{
-        loader: 'style-loader'
-      },
-      {
-        loader: 'css-loader'
-      },
-      {
-        loader: 'sass-loader'
-      }
+    use: [
+      { loader: 'style-loader' },
+      { loader: 'css-loader' },
+      { loader: 'sass-loader' }
     ]
   },
   {
@@ -24,7 +20,11 @@ webpackConfig.module.rules = [...webpackConfig.module.rules,
   }
 ];
 
-webpackConfig.plugins = [...webpackConfig.plugins,
+webpackConfig.plugins = [
+  ...webpackConfig.plugins,
+
+  // Simplifies creation of HTML files to serve your webpack bundles.
+  // https://github.com/jantimon/html-webpack-plugin
   new HtmlWebpackPlugin({
     inject: true,
     template: helpers.root('/src/index.html'),
