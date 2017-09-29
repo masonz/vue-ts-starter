@@ -1,9 +1,21 @@
 language: node_js
+cache:
+  directories:
+    - node_modules
+notifications:
+  email: false
 node_js:
-  - 7
-  - 6
-before_install:
+  - '7'
+  - '6'
+  - '4'
+before_script:
+  - npm prune
   - npm i nyc -g
   - npm i coveralls -g
 script:
   - npm run coverage
+after_success:
+  - npm run semantic-release
+branches:
+  except:
+    - /^v\d+\.\d+\.\d+$/
