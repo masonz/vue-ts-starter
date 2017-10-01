@@ -119,7 +119,6 @@ webpackConfig.plugins = [
   purifyCss,
   htmlPlugin,
   commonsChunkPlugin,
-  definePlugin,
 
   // Since the vendor and manifest chunk use a different definition for minChunks,
   // you need to invoke the plugin twice:
