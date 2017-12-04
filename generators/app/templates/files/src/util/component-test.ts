@@ -1,10 +1,10 @@
-import Vue from 'vue';
+import Vue, { Component } from 'vue';
 import { SinonSpy } from 'sinon';
 import merge from 'lodash.merge';
 import { ILogger } from './log';
 
 export interface IComponents {
-  [key: string]: Vue.Component;
+  [key: string]: Component;
 }
 
 export class ComponentTest {
