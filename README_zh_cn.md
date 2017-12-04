@@ -38,6 +38,13 @@ yo vue-ts-starter:component
 yo vue-ts-starter:page
 ```
 
+如果构建过程中遇到`main.scss`报错:
+```
+ERROR in ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/sass/main.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/masonz/Project/my-project/node_modules/node-sass/vendor'
+```
+请尝试 `npm rebuild node-sass` 后再次构建
+
 ## License
 
 MIT © masonz
