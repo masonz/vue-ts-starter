@@ -1,66 +1,24 @@
-# generator-vue-ts-starter [中文](./README_zh_cn.md)
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> 😘 Starter for vue and typescript.
+# vue-sfc-ts-simple
 
-## Integration tools
+This template is a modified `webpack-simple` generated template to add Typescript SFC (Single File Component) support.
+You can also make similar changes to the other Vue templates.
 
- * Vue2
- * Vuex
- * Vue-Router
- * TypeScript
- * Sass
- * Webpack3
- * Karma
- * Mocha
- * Tslint
+Compare the differences:
+https://github.com/ducksoupdev/vue-sfc-ts-simple/compare/v0.1.0...v0.4.0
 
-> ⚠ For syntax, please refer to [vue-class-component](https://github.com/vuejs/vue-class-component) and [vue-property-decorator](https://github.com/kaorun343/vue-property-decorator)
+The creation of an official Typescript template is a hot topic for vue-cli - https://github.com/vuejs/vue-cli/issues/263
 
-## Installation
+## Build Setup
 
-First, install [Yeoman](http://yeoman.io) and generator-vue-ts-starter using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+``` bash
+# install dependencies
+npm install
 
-```bash
-npm install -g yo
-npm install -g generator-vue-ts-starter
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
 ```
 
-Then generate your new project:
-
-```bash
-yo vue-ts-starter
-```
-
-And, you can generate `compoennt` or `page` by:
-
-```bash
-yo vue-ts-starter:component
-yo vue-ts-starter:page
-```
-
-Failed to build `main.scss`:
-```
-ERROR in ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/sass/main.scss
-Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/masonz/Project/my-project/node_modules/node-sass/vendor'
-```
-You can try `npm rebuild node-sass` and run again.
-
-## Getting To Know Yeoman
-
- * Yeoman has a heart of gold.
- * Yeoman is a person with feelings and opinions, but is very easy to work with.
- * Yeoman can be too opinionated at times but is easily convinced not to be.
- * Feel free to [learn more about Yeoman](http://yeoman.io/).
-
-## License
-
-MIT © masonz
-
-[npm-image]: https://badge.fury.io/js/generator-vue-ts-starter.svg
-[npm-url]: https://npmjs.org/package/generator-vue-ts-starter
-[travis-image]: https://travis-ci.org/masonz/generator-vue-ts-starter.svg?branch=master
-[travis-url]: https://travis-ci.org/masonz/generator-vue-ts-starter
-[daviddm-image]: https://david-dm.org/masonz/generator-vue-ts-starter.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/masonz/generator-vue-ts-starter
-[coveralls-image]: https://coveralls.io/repos/masonz/generator-vue-ts-starter/badge.svg
-[coveralls-url]: https://coveralls.io/r/masonz/generator-vue-ts-starter
+For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
